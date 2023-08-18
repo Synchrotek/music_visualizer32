@@ -8,7 +8,7 @@ const ctx = canvas.getContext('2d');
 const audioContext = new AudioContext();
 const sourceNode = audioContext.createMediaElementSource(audio);
 const analyserNode = audioContext.createAnalyser();
- 
+
 let isPlaying = false;
 
 function resizeCanvas() {
