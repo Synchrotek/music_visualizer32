@@ -1,5 +1,3 @@
-alert("This app is still in development,\nIf any lag -> just refresh the page once");
-
 const audio = document.getElementById('audio');
 const playPauseBtn = document.getElementById('play-pause-btn');
 const chooseSongBtn = document.getElementById('choose-song-btn');
